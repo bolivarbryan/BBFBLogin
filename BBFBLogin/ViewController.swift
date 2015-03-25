@@ -26,10 +26,36 @@ class ViewController: UIViewController {
 
 
     @IBAction func sharePhotoInMessenger(sender: AnyObject) {
+        let alertController = UIAlertController(title: "Select Source", message: "", preferredStyle: .Alert)
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel) { (action) in
+            println(action)
+        }
+        let imageAction = UIAlertAction(title: "Image", style: .Default) { (_) in
             let image: UIImage = UIImage(named: "doggie")!
             FBSDKMessengerSharer.shareImage(image, withOptions: nil)
-   
+        }
+        let videoAction = UIAlertAction(title: "Video", style: .Default) { (_) in
+            let filepath:String = NSBundle.mainBundle().pathForResource("video", ofType: "mov")!
+            let videoData: NSData = NSData(contentsOfFile: filepath)!
+            FBSDKMessengerSharer.shareVideo(videoData, withOptions: nil)
+        }
+
+        
+        
+        alertController.addAction(imageAction)
+        alertController.addAction(videoAction)
+        alertController.addAction(cancelAction)
+        
+        self.presentViewController(alertController, animated: true){}
+
+        
+        
         }
     
+
+    
+
+
 }
 

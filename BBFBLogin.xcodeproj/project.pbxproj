@@ -17,6 +17,7 @@
 		E8D53DCB1AC3431B00C6E0A2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D53DCA1AC3431B00C6E0A2 /* FBSDKLoginKit.framework */; };
 		E8D53DCE1AC346DC00C6E0A2 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D53DCC1AC346DC00C6E0A2 /* FBSDKMessengerShareKit.framework */; };
 		E8D53DCF1AC346DC00C6E0A2 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D53DCD1AC346DC00C6E0A2 /* FBSDKShareKit.framework */; };
+		E8D53DD11AC3507400C6E0A2 /* video.mov in Resources */ = {isa = PBXBuildFile; fileRef = E8D53DD01AC3507400C6E0A2 /* video.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E8D53DCA1AC3431B00C6E0A2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		E8D53DCC1AC346DC00C6E0A2 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
 		E8D53DCD1AC346DC00C6E0A2 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		E8D53DD01AC3507400C6E0A2 /* video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		E8D53DA31AC33FA700C6E0A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E8D53DD01AC3507400C6E0A2 /* video.mov */,
 				E8D53DCC1AC346DC00C6E0A2 /* FBSDKMessengerShareKit.framework */,
 				E8D53DCD1AC346DC00C6E0A2 /* FBSDKShareKit.framework */,
 				E8D53DCA1AC3431B00C6E0A2 /* FBSDKLoginKit.framework */,
@@ -210,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D53DD11AC3507400C6E0A2 /* video.mov in Resources */,
 				E8D53DAB1AC33FA700C6E0A2 /* Main.storyboard in Resources */,
 				E8D53DB01AC33FA700C6E0A2 /* LaunchScreen.xib in Resources */,
 				E8D53DAD1AC33FA700C6E0A2 /* Images.xcassets in Resources */,
