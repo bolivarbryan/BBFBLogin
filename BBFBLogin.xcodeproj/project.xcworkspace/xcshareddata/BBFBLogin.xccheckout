@@ -14,11 +14,11 @@
 		<string>github.com:bolivarbryan/BBFBLogin.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>BBFBLogin/BBFBLogin.xcodeproj</string>
+	<string>BBFBLogin.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>9C51356D8463738A1853A48EB0ABFE6DC450CE2B</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:bolivarbryan/BBFBLogin.git</string>
