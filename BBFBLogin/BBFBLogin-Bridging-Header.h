@@ -4,3 +4,4 @@
 
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <FBSDKMessengerShareKit/FBSDKMessengerShareKit.h>

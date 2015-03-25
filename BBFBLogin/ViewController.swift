@@ -25,5 +25,11 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func sharePhotoInMessenger(sender: AnyObject) {
+            let image: UIImage = UIImage(named: "doggie")!
+            FBSDKMessengerSharer.shareImage(image, withOptions: nil)
+   
+        }
+    
 }
 
